@@ -1,5 +1,7 @@
-click()
-welcome()
+import time
+
+print(time.asctime( time.localtime(time.time()) ))
+
 
 def click():
     print("Click")
@@ -11,5 +13,6 @@ def welcome():
     
 
 
-
+click()
+welcome()
 
